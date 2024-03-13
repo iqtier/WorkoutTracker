@@ -1,6 +1,6 @@
 import { StyleSheet, View, FlatList, SafeAreaView } from "react-native";
-import exercises from "./assets/data/exercises.json";
-import ExerciseListItem from "./src/components/ExerciseListItem";
+import exercises from "../../assets/data/exercises.json";
+import ExerciseListItem from "../components/ExerciseListItem";
 
 export default function App() {
   return (
@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
   container: {
     paddingTop: 50,
     flex: 1,
-    backgroundColor: "gainsboro",
+    backgroundColor: "ghostwhite",
     justifyContent: "center",
     padding: 10,
   },
